@@ -4,7 +4,7 @@ Simon Game is a classic memory game where players need to remember and reproduce
 
 ## How to Play
 
-1. Open https://ankit160402.github.io/tile-game/  in a web browser(Currently only works on PC).
+1. Open https://ankit160402.github.io/SimonGame/  in a web browser(Currently only works on PC).
 2. The game starts with a prompt "Press any key." Press any key on your keyboard to begin.
 3. The game will display a sequence of colored boxes.
 4. Click on the boxes in the same order as the displayed sequence.
