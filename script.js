@@ -50,7 +50,6 @@ function next() {
 
 $(".box").click(function () {
   clicked(this["id"][1], 150, "pressed");
-  console.log(this["id"][1]);
   if (this["id"][1] == seq[count]) {
     if (count == (seq.length - 1)) {
       count = 0;
@@ -58,7 +57,6 @@ $(".box").click(function () {
     } else {
       count++;
     }
-    console.log(seq[count]);
   } else {
     new_game();
   }
@@ -70,7 +68,6 @@ $(document).keydown(function () {
   if (game_on == false) {
     next();
     game_on = true;
-    console.log(game_on);
   }
 });
 
